@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pkpraxu02-web.github.io/classfull-website/sitemap.xml

@@ -1,0 +1,32 @@
+<svg id="cf-path-svg" xmlns="http://www.w3.org/2000/svg" viewBox="3.85 339.89 902.3 66.28">
+  <style>
+    .cls-1, .cls-2 {
+      fill: none;
+      stroke: #e0060a;
+      stroke-miterlimit: 10;
+      stroke-linecap: round;
+    }
+    .cls-2 {
+      stroke-dasharray: 3 3;
+      animation: cf-dash-flow 1.1s linear infinite;
+    }
+    .cls-3 {
+      fill: #e0060a;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: cf-arrow-pulse 1.1s ease-in-out infinite;
+    }
+    @keyframes cf-dash-flow {
+      from { stroke-dashoffset: 0; }
+      to   { stroke-dashoffset: -12; }
+    }
+    @keyframes cf-arrow-pulse {
+      0%, 100% { transform: scale(1); }
+      50%      { transform: scale(1.2); }
+    }
+  </style>
+  <path class="cls-1" d="M15.85,382.34s.52-.13,1.47-.3"/>
+  <path class="cls-2" d="M20.29,381.59c5.78-.72,16.55-1.22,28.25,2.45,17.36,5.45,43.23,13.28,78.3,3.06,35.06-10.21,45.28-21.79,85.45-10.55,40.17,11.23,48.68,25.87,101.45,11.92,52.77-13.96,57.19-15.32,84.09-5.45,26.89,9.87,45.62,20.43,108.25-6.47,0,0,26.55-14.64,67.4,6.81,0,0,37.45,19.4,86.47,4.43,0,0,47.66-24.51,88.85-6.81,40.53,17.42,93.93,20.01,139.74-21.11"/>
+  <path class="cls-1" d="M889.64,358.85c.37-.34.73-.68,1.1-1.02"/>
+  <polygon class="cls-3" points="894.15 359.98 887.14 355.94 894.15 351.89 894.15 359.98"/>
+</svg>
